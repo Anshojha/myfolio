@@ -48,3 +48,9 @@
   object-fit: cover;
   margin: 1rem;
 }
+
+@media screen and (max-width:625px) {
+    .navbar{
+       display: none;
+    }
+}
