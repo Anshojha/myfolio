@@ -33,10 +33,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100vw;
     max-width: 65rem;
 }
 .worksImg{
-height: 14rem;
-width: 12rem;
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    display: grid;
+}
+
+
+.workBtn{
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    border:none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin:3rem 0;
+    cursor: pointer;
 }
